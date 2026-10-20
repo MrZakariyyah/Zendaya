@@ -1,0 +1,20 @@
+# my first workflow
+name: testing testing workflow
+#to indicate an event we use on
+on: 
+    push: 
+        branches: ["master"]
+
+
+jobs:
+    testing-testing:
+        runs-on: ubuntu-latest
+        steps:
+            - name: whatcha doing
+              run: echo "doing the helly helly to ya neighbors"
+           
+
+            - name: see ya later
+              run: echo "Goodbye for now"
+    
+    
